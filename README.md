@@ -17,6 +17,22 @@ More information can be found [here](https://ahmednafies.github.io/covid/).
   python >= 3.6
 ```
 
+## Installation
+
+```python
+
+pip install covid
+```
+
+## Dependencies
+
+```python
+
+pydantic
+requests
+```
+
+
 
 ```python
 
