@@ -11,7 +11,11 @@ As we can see that COVID19 virus is making such a great impact in this world. Py
 
 More information can be found [here](https://ahmednafies.github.io/covid/).
 
+## Requirements
 
+```
+  python >= 3.6
+```
 
 
 ```python
