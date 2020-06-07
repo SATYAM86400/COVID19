@@ -48,3 +48,9 @@ from covid import Covid
 ```python
 covid = Covid()
 covid.get_data()
+```
+### Result
+
+```python
+
+ 
