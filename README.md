@@ -38,8 +38,13 @@ requests
 
 ![](johns_hopkins.png)
  
+
+### Getting all the data
+
+###### Importing
 ```python
-
-import covid
-
+from covid import Covid
 ```
+```python
+covid = Covid()
+covid.get_data()
