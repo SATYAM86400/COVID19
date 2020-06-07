@@ -3,7 +3,7 @@
 <hr>
 
 
-As we can see that COVID19 virus is making such a great impact in this world. Python community has built a <b>covid</b> names libarary that you can import in your python file and can use that to get real time data for the spreading and advancement in COVID19 stats. This library gives us data prepared by the very prestigious [<b>Johns Hopkins University</b>](https://www.jhu.edu/) and [<b>worldometer.info</b>](https://www.worldometers.info/coronavirus/).
+As we can see that COVID19 virus is making such a great impact in this world. Python community has built a <b>covid</b> named library that you can import in your python file and can use that to get real time data for the spreading and advancement in COVID19 stats. This library gives us data prepared by the very prestigious [<b>Johns Hopkins University</b>](https://www.jhu.edu/) and [<b>worldometer.info</b>](https://www.worldometers.info/coronavirus/).
 
 
 ![](https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production+Library/31-01-20-coronavirus-digital-image-cdc1.jpg/image1440x560cropped.jpg)
