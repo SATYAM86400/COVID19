@@ -139,3 +139,59 @@ print(active)
 ```python
 3479953
 ```
+# Change of source to worldometers.info
+
+![](worldometer.png)
+
+#### Like this
+
+```python
+covid = Covid(source="worldometers")
+```
+### Getting the data from worldometers.info
+
+It is the same way as we did while using the Johns Hopkins API.
+
+```python
+covid.get_data()
+```
+
+#### Result
+
+```python
+[
+  { 
+    'country': 'USA',
+    'confirmed': 1988700,
+    'new_cases': 156,
+    'deaths': 112101,
+    'recovered': 752048,
+    'active': 1124551,
+    'critical': 17016,
+    'new_deaths': 5,
+    'total_tests': 20819906,
+    'total_tests_per_million': Decimal('0'),
+    'total_cases_per_million': Decimal('6010'),
+    'total_deaths_per_million': Decimal('339'),
+    'population': Decimal('330875237')
+    },
+ 
+ {
+    'country': 'Brazil',
+    'confirmed': 676494,
+    'new_cases': 2907,
+    'deaths': 36044,
+    'recovered': 302084,
+    'active': 338366,
+    'critical': 8318,
+    'new_deaths': 87,
+    'total_tests': 999836,
+    'total_tests_per_million': Decimal('0'),
+    'total_cases_per_million': Decimal('3184'),
+    'total_deaths_per_million': Decimal('170'),
+    'population': Decimal('212459250')
+    },
+    ...
+]
+```
+   
