@@ -127,6 +127,7 @@ india_cases = covid.get_status_by_country_name('india')
 
 
 
+
 ```
 ### Getting Total Active Cases
 
@@ -139,6 +140,26 @@ print(active)
 ```python
 3479953
 ```
+### Getting Total Confirmed Cases
+
+```python
+confirmed = covid.get_total_confirmed_cases()
+print(confirmed)
+```
+### Getting Total Recovered Cases
+
+```python
+recovered = covid.get_total_recovered()
+print(recovered)
+```
+### Getting Total Deaths
+
+```python
+deaths = covid.get_total_deaths()
+print(deaths)
+```
+
+
 # Change of source to worldometers.info
 
 ![](worldometer.png)
@@ -194,4 +215,5 @@ covid.get_data()
     ...
 ]
 ```
-   
+
+
