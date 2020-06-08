@@ -101,7 +101,7 @@ countries = covid.list_countries()
 ]
 ```
 
-### Get Status by Country Name
+### Getting Status by Country Name
 
 You can easily get the status of a country by it's name only, as follows :-
 
@@ -127,4 +127,15 @@ india_cases = covid.get_status_by_country_name('india')
 
 
 
+```
+### Getting Total Active Cases
+
+```python
+active = covid.get_total_active_cases()
+print(active)
+```
+#### Result
+
+```python
+3479953
 ```
