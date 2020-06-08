@@ -215,5 +215,8 @@ covid.get_data()
     ...
 ]
 ```
-
+### Getting Status by Country's Name
+```python
+covid.get_status_by_country_name('india')
+```
 
