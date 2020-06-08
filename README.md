@@ -52,5 +52,38 @@ covid.get_data()
 ### Result
 
 ```python
+[
+    {
+        'id': '53',
+        'country': 'China',
+        'confirmed': 81020,
+        'active': 9960,
+        'deaths': 3217,
+        'recovered': 67843,
+        'latitude': 30.5928,
+        'longitude': 114.3055,
+        'last_update': 1584097775000
+    },
+    {
+        'id': '115',
+        'country': 'Italy',
+        'confirmed': 24747,
+        'active': 20603,
+        'deaths': 1809,
+        'recovered': 2335,
+        'latitude': 41.8719,
+        'longitude': 12.5674,
+        'last_update': 1584318130000
+    },
+    ...
+]
+```
 
  
+### Listing Countries
+
+Listing all the countries affected with COVID19 is done by the following :- 
+
+```python
+countries = covid.list_countries()
+```
