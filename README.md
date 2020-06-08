@@ -221,3 +221,5 @@ covid.get_status_by_country_name('india')
 ```
 
 <b> The above same functions are followed in this also.<b> You can see the [Jupyter notebook](Covid.ipynb) for experimentation and all.
+
+<center>Made with :heart: by Satyam Mishra</center>
