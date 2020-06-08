@@ -87,3 +87,44 @@ Listing all the countries affected with COVID19 is done by the following :-
 ```python
 countries = covid.list_countries()
 ```
+#### Result
+
+```python
+[ 
+
+  {'id': '18', 'name': 'US'}, 
+  {'id': '22', 'name': 'Brazil'}, 
+  {'id': '14', 'name': 'Russia'},
+  {'id': '17', 'name': 'United Kingdom'}, 
+  {'id': '94', 'name': 'India'}
+  ...
+]
+```
+
+### Get Status by Country Name
+
+You can easily get the status of a country by it's name only, as follows :-
+
+```python
+india_cases = covid.get_status_by_country_name('india')
+```
+
+#### Result
+
+```python
+
+{
+'id': '94', 
+'country': 'India',
+'confirmed': 265869, 
+'active': 129308, 
+'deaths': 7473,
+'recovered': 129088,
+'latitude': 20.593684,
+'longitude': 78.96288,
+'last_update': 1591641212000
+}
+
+
+
+```
