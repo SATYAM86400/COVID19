@@ -20,14 +20,12 @@ More information can be found [here](https://ahmednafies.github.io/covid/).
 ## Installation
 
 ```python
-
 pip install covid
 ```
 
 ## Dependencies
 
 ```python
-
 pydantic
 requests
 ```
